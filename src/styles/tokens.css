@@ -3,5 +3,5 @@
  --color-muted:#666; --color-display-muted:#e3e3e3; --color-brand-red:#d32f2f; --color-active-blue:#06f; --color-lacto-pink:#ffedf0;
  --font-body:'Pretendard',sans-serif; --font-sans:'Montserrat','Pretendard',sans-serif;
  --font-serif:'Cormorant Garamond',serif; --font-korean:'S-Core Dream','Pretendard',sans-serif;
- --ease:cubic-bezier(.22,.61,.36,1); --duration:1000ms; --header-height:clamp(64px,4.166667vw,80px);
+ --ease:cubic-bezier(.22,.61,.36,1); --duration:350ms; --header-height:clamp(64px,4.166667vw,80px);
 }

@@ -115,31 +115,33 @@ button img{flex-shrink:0}
 .natural-art{position:absolute;left:20.052%;top:16.2037%;width:31.71875%;aspect-ratio:609/831}
 .natural-texture{position:absolute;left:0;top:12.63%;width:60.427%;height:72.202%;background:#666;overflow:hidden}
 .natural-texture img{width:100%;height:130.86%;object-fit:cover;position:absolute;top:-19.07%;opacity:.6;mix-blend-mode:multiply}
-.natural-hand{position:relative;width:100%;height:auto}
-.natural-hand{height:100%;overflow:visible}
-.natural-sprig{transform-box:fill-box;transform-origin:76% 59%}
-.natural-section:not(.is-revealed) .natural-display,.natural-section:not(.is-revealed) .natural-texture,.natural-section:not(.is-revealed) .natural-hand,.natural-section:not(.is-revealed) .natural-copy{opacity:0}
-.natural-section.is-revealed .natural-display{animation:natural-display-in .95s var(--ease) both}
-.natural-section.is-revealed .natural-texture{animation:natural-frame-open 1.2s var(--ease) .18s both}
-.natural-section.is-revealed .natural-hand{animation:natural-hand-emerge 1.35s var(--ease) .46s both}
-.natural-section.is-revealed .natural-copy{animation:natural-copy-in .9s var(--ease) .9s both}
-.natural-section.is-revealed .natural-sprig{animation:natural-sprig-sway 4.2s ease-in-out 1.9s infinite alternate}
+.natural-figure{position:absolute;inset:0;overflow:visible}
+.natural-hand,.natural-sprig{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain}
+.natural-sprig{transform-origin:2% 52%;will-change:transform}
+.natural-hand-front{clip-path:polygon(0 0,100% 0,100% 45%,44% 45%,44% 50%,37% 50%,31% 52%,24% 50%,12% 46%,0 51%);pointer-events:none}
+.natural-section:not(.is-revealed) .natural-display,.natural-section:not(.is-revealed) .natural-texture,.natural-section:not(.is-revealed) .natural-figure,.natural-section:not(.is-revealed) .natural-copy{opacity:0}
+.natural-section.is-revealed .natural-display{animation:natural-display-in .35s var(--ease) both}
+.natural-section.is-revealed .natural-texture{animation:natural-frame-open .4s var(--ease) .05s both}
+.natural-section.is-revealed .natural-figure{animation:natural-hand-emerge .5s var(--ease) .46s both}
+.natural-section.is-revealed .natural-copy{animation:natural-copy-in .35s var(--ease) .3s both}
+.natural-section.is-revealed .natural-sprig{animation:natural-sprig-sway 3.8s ease-in-out .96s infinite alternate}
 .natural-copy{position:absolute;left:50%;right:6.51%;top:38.796%;bottom:22%}
 .natural-copy h2{font:300 3.229167vw/1.6 var(--font-korean);letter-spacing:-.032em;white-space:nowrap}
 .natural-copy h2 span{font-size:4.166667vw}
 .natural-line{margin-top:12px;width:calc(100% + 6.51vw);height:auto}
 .natural-copy p{position:absolute;bottom:0;right:0;text-align:right;font-size:clamp(15px,1.041667vw,22px);letter-spacing:-.032em}
-.brand-film{height:280vh;position:relative;color:white;background:#000;--scene:0}
-.brand-stage{position:sticky;top:0;height:100vh;overflow:clip}
-.brand-images{position:absolute;top:18.5185%;height:62.963%;width:100%;left:0}
+.brand-film{height:320vh;position:relative;color:white;background:#000;--scene:0;--door:clamp(0,calc(var(--scene)/.85),1);--brand-title:clamp(0,calc((var(--scene) - .35)/.2),1);--brand-english:clamp(0,calc((var(--scene) - .7)/.14),1);--brand-korean:clamp(0,calc((var(--scene) - .83)/.13),1)}
+.brand-film{height:100svh;scroll-margin-top:0}
+.brand-stage{position:relative;top:0;height:100svh;overflow:clip}
+.brand-images{position:absolute;top:50%;width:100%;left:0;aspect-ratio:2.35/1;transform:translateY(-50%);clip-path:inset(0 calc((1 - var(--door))*50%));will-change:clip-path}
 .brand-image{position:absolute;left:50%;top:0;height:100%;max-width:none;object-fit:cover;transform:translateX(-50%);will-change:opacity}
 .brand-narrow{width:25.729%;opacity:clamp(0,calc(1 - var(--scene)*3),1)}
 .brand-wide{width:79.6875%;opacity:clamp(0,calc(var(--scene)*3),1);clip-path:inset(0 calc(clamp(0,1 - var(--scene)*2,1)*34%))}
-.brand-full{width:100%;opacity:clamp(0,calc((var(--scene) - .55)*3),1)}
-.brand-stage>h2{position:absolute;top:12.5%;width:100%;text-align:center;font:400 6.25vw/1.1 var(--font-serif);letter-spacing:-.045em;opacity:clamp(0,calc((var(--scene) - .18)*3),1);transform:translateY(calc((1 - clamp(0,(var(--scene) - .18)*3,1))*24px))}
-.brand-description{position:absolute;left:40.3646%;right:6%;top:70.9259%;opacity:clamp(0,calc((var(--scene) - .65)*4),1);transform:translateY(calc((1 - clamp(0,(var(--scene) - .65)*4,1))*24px))}
-.brand-description h3{font:400 6.25vw/1.1 var(--font-serif);letter-spacing:-.045em;white-space:nowrap}
-.brand-description p{font:400 clamp(14px,1.041667vw,22px)/1.4 var(--font-sans);letter-spacing:-.032em;margin-top:22px}
+.brand-full{width:100%;opacity:1;object-position:center;filter:saturate(1)}
+.brand-stage>h2{position:absolute;top:calc(50% - 21.2766vw - 2.8vw);width:100%;text-align:center;font:400 6.25vw/1.1 var(--font-serif);letter-spacing:-.045em;opacity:var(--brand-title);transform:translateY(calc((1 - var(--brand-title))*28px))}
+.brand-description{position:absolute;left:34%;right:4%;top:calc(50% + 21.2766vw - 7.5vw)}
+.brand-description h3{font:400 6.25vw/1.1 var(--font-serif);letter-spacing:-.045em;white-space:nowrap;opacity:var(--brand-english);transform:translateY(calc((1 - var(--brand-english))*32px))}
+.brand-description p{font:400 clamp(14px,1.041667vw,22px)/1.4 var(--font-sans);letter-spacing:-.032em;margin-top:22px;opacity:var(--brand-korean);transform:translateY(calc((1 - var(--brand-korean))*24px))}
 .back-top{position:absolute;bottom:8%;right:3%;display:grid;place-items:center;background:white;color:black;width:48px;height:48px}
 .back-top span{width:18px;height:18px;border-left:1px solid;border-top:1px solid;transform:translateY(5px) rotate(45deg)}
 .technology-section{position:relative;aspect-ratio:1920/3240}
@@ -196,7 +198,7 @@ button img{flex-shrink:0}
 .site-footer address{font-style:normal;font-size:clamp(13px,.78125vw,17px);letter-spacing:-.032em;line-height:1.6;margin:13px 0 0 11px}
 .site-footer address a,.site-footer address button{text-decoration:underline}
 .site-footer address button{min-height:32px}
-.reveal{transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal{transition:opacity .3s var(--ease),transform .3s var(--ease)}
 .reveal-pending{opacity:0;transform:translateY(24px)}
 .link-dialog{border:1px solid #ddd;max-width:calc(100% - 40px);width:430px;padding:32px;color:black;background:white}
 .link-dialog::backdrop{background:#0006;backdrop-filter:blur(3px)}
@@ -207,10 +209,10 @@ button img{flex-shrink:0}
 @keyframes slide-enter{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 @keyframes image-enter{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
 @keyframes natural-display-in{from{opacity:0;transform:translateY(-18px);clip-path:inset(0 100% 0 0)}to{opacity:1;transform:none;clip-path:inset(0)}}
-@keyframes natural-frame-open{from{opacity:.2;transform:scaleX(.04);transform-origin:left center}to{opacity:1;transform:scaleX(1);transform-origin:left center}}
-@keyframes natural-hand-emerge{from{opacity:0;clip-path:inset(0 100% 0 0);transform:translate(-18px,16px) scale(.96)}to{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes natural-frame-open{from{opacity:.2;clip-path:inset(100% 0 0 0)}to{opacity:1;clip-path:inset(0)}}
+@keyframes natural-hand-emerge{from{opacity:0;clip-path:inset(0 100% 0 0);transform:translateX(-5%)}to{opacity:1;clip-path:inset(0);transform:none}}
 @keyframes natural-copy-in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-@keyframes natural-sprig-sway{from{transform:rotate(-1.2deg)}to{transform:rotate(1.8deg)}}
+@keyframes natural-sprig-sway{0%{transform:rotate(-.45deg) translateY(0)}45%{transform:rotate(.7deg) translateY(-2px)}100%{transform:rotate(-.2deg) translateY(1px)}}
 @keyframes ring-rotate{to{transform:rotate(360deg)}}
 @keyframes marquee{to{transform:translateX(-50%)}}
 @media(min-width:1921px){.care-link-grid{width:25vw;max-width:470px}.care-link-grid a,.care-link-grid button{min-height:100px}.product-actions{max-width:420px}}
@@ -240,11 +242,7 @@ button img{flex-shrink:0}
  .curation-copy h2{font-size:56px}.curation-copy .view-more>span{font-size:15px;min-width:240px;min-height:58px}
  .natural-section{min-height:600px}.natural-art{left:8%;width:43%;top:18%}.natural-copy{left:49%;right:5%;top:37%;bottom:14%}
  .natural-copy h2{font-size:3.5vw}.natural-copy h2 span{font-size:4.7vw}.natural-copy p{font-size:15px}.natural-display{top:14%;font-size:14vw}
- .brand-film{height:auto;padding:70px 0 80px}.brand-stage{height:auto;position:relative;display:flex;flex-direction:column;gap:36px;overflow:visible}
- .brand-images{position:relative;top:auto;left:auto;height:52vw;order:2}.brand-narrow,.brand-wide{display:none}.brand-full{opacity:1;width:100%;object-fit:cover}
- .brand-stage>h2{position:relative;top:auto;font-size:7vw;padding:0 24px;opacity:1;transform:none;order:1}
- .brand-description{position:relative;top:auto;left:auto;right:auto;opacity:1;transform:none;padding:0 40px;order:3}
- .brand-description h3{font-size:8vw}.brand-description p{font-size:16px;line-height:1.6;word-break:keep-all}
+ .brand-description p{font-size:16px;line-height:1.6;word-break:keep-all}
  .back-top{display:none}
  .technology-section{aspect-ratio:auto;padding:90px 40px}
  .technology-intro{position:relative;top:auto;left:auto;margin-bottom:70px}.technology-intro p{font-size:15px;max-width:600px}.technology-intro .view-more{margin-top:32px}
@@ -302,10 +300,7 @@ button img{flex-shrink:0}
  .natural-copy h2 span{font-size:36px}
  .natural-line{width:100%;margin-top:12px}
  .natural-copy p{position:relative;right:auto;bottom:auto;font-size:15px;line-height:1.65;margin-top:32px;word-break:keep-all}
- .brand-film{padding:62px 0 72px}
- .brand-stage{gap:28px}.brand-stage>h2{font-size:11vw;line-height:1.05}
- .brand-images{height:105vw}
- .brand-description{padding:0 24px}.brand-description h3{font-size:11vw;white-space:normal}.brand-description p{font-size:15px;line-height:1.65;margin-top:24px}
+ .brand-description{left:8%;right:8%}.brand-description p{font-size:13px;line-height:1.65;margin-top:24px}
  .technology-section{padding:80px 24px}
  .technology-intro{margin-bottom:50px}.technology-intro h2{font-size:39px;line-height:1.1;margin-bottom:22px}
  .technology-intro p{font-size:15px;line-height:1.6}.technology-intro .view-more{margin-top:28px}
@@ -330,19 +325,6 @@ button img{flex-shrink:0}
  .site-footer address{font-size:13px;line-height:1.8;margin-top:12px;word-break:keep-all}
  .site-footer address span{display:block}
 }
-@media(prefers-reduced-motion:reduce){
- html{scroll-behavior:auto}
- *,*::before,*::after{animation:none!important;transition:none!important}
- .reveal-pending{opacity:1;transform:none}
- .natural-display,.natural-texture,.natural-hand,.natural-copy{opacity:1!important;transform:none!important;clip-path:none!important;animation:none!important}
- .brand-film{height:auto;--scene:1!important}
- .brand-stage{position:relative;height:56.25vw;min-height:650px}
- .brand-stage>h2,.brand-description{opacity:1;transform:none}
- .brand-full{opacity:1}.brand-narrow,.brand-wide{display:none}
- .motion-toggle{display:none}
-}
-@media(max-width:1023px) and (prefers-reduced-motion:reduce){.brand-stage{height:auto;min-height:0}}
-
 .care-pinned{height:360svh}
 .care-pinned .care-stage{position:sticky;top:0;height:100svh;padding:48px 2.864583%;background:white}
 .care-pinned .care-panel{height:100%}

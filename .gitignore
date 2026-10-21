@@ -23,6 +23,10 @@ playwright-report/
 coverage/
 reference/browser/
 reference/verification.json
+reference/moss-video-frame.png
+
+# Superseded local video preview
+public/videos/moss-loop.mp4
 
 # Editor directories and files
 .vscode/*

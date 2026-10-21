@@ -25,6 +25,8 @@ export const assets = {
   "140:954/imgLinkedEllipse15": "/images/140-954-6d087.svg",
   "190:188/imgFrame867": "/images/190-188-fb7cb.png",
   "190:188/imgHand1": "/images/190-188-1b7d1.png",
+  "190:188/imgHands": "/images/natural-hands.png",
+  "190:188/imgLeaves": "/images/natural-leaves.png",
   "190:188/imgLine7": "/images/190-188-9d05f.svg",
   "194:450/imgImage": "/images/194-450-ef80e.svg",
   "194:450/imgImage1": "/images/194-450-1fa71.svg",
