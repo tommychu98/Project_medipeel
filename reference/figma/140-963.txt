@@ -1,0 +1,19 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/94b3d869-24a3-4e27-8e2a-b2b7be712233";
+const imgImage = `${assetPathPrefix}/453b9.svg`;
+
+export default function Frame809() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:963">
+      <div className="absolute h-[540px] left-0 top-0 w-[1920px]" data-node-id="140:964" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="absolute h-[264px] left-[-50px] top-[138px] w-[4685px]" data-node-id="140:965">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[1.1] left-[2259px] text-[#e3e3e3] text-[240px] text-center top-0 tracking-[-10.8px] whitespace-nowrap" data-node-id="140:966">
+          SKIN SCIENCE PROVEN DATA REAL OUTCOME
+        </p>
+      </div>
+      <div className="absolute bg-[var(--deep-charcoal,black)] h-[75px] left-0 top-[465px] w-[1920px]" data-node-id="184:198" />
+    </div>
+  );
+}
+

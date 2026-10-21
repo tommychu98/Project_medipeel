@@ -1,0 +1,77 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/8914a549-d5a3-41a8-87dc-6456e6c40a80";
+const imgImage = `${assetPathPrefix}/8e780.svg`;
+const imgFrame818 = `${assetPathPrefix}/facf9.svg`;
+
+type ProgressProps = {
+  className?: string;
+  circle?: "False";
+  progress?: "80%";
+};
+
+function Progress({ className, circle = "False", progress = "80%" }: ProgressProps) {
+  return (
+    <div className={className || "bg-white border border-black border-solid h-[8px] relative rounded-[999px] w-[280px]"} data-node-id="111:1850">
+      <div className="absolute bg-black inset-[-1px_calc(17.14%-0.66px)_-1px_-1px] rounded-bl-[999px] rounded-tl-[999px]" data-node-id="111:1867" data-name="Progress" />
+    </div>
+  );
+}
+
+export default function P2() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:764" data-name="p2">
+      <div className="-translate-y-1/2 absolute h-[658px] left-[729px] top-[calc(50%+25px)] w-[1079px]" data-node-id="140:765" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[25px] items-start left-[106px] not-italic text-black top-[299px] w-[382px]" data-node-id="140:766">
+        <p className="font-['Pretendard:ExtraLight'] leading-[1.1] min-w-full relative shrink-0 text-[24px] tracking-[-0.768px] w-[min-content]" data-node-id="140:767">
+          NEW PRODUCT
+        </p>
+        <div className="font-['S-Core_Dream:4_Regular'] leading-[0] relative shrink-0 text-[45px] tracking-[-1.44px] whitespace-nowrap" data-node-id="140:768">
+          <p className="leading-[1.4] mb-0">레드 락토 콜라겐 모이스처</p>
+          <p className="leading-[1.4]">포어 리프팅 선크림</p>
+        </div>
+        <div className="font-['Pretendard:Regular'] leading-[0] relative shrink-0 text-[20px] tracking-[-0.64px] whitespace-nowrap" data-node-id="140:769">
+          <p className="leading-[1.4] mb-0">강력한 자외선 차단은 기본</p>
+          <p className="leading-[1.4]">비건 콜라겐으로 열 노화와 모공까지 케어하는 리프팅 선크림</p>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[41px] items-start left-[106px] top-[759px] w-[331.314px]" data-node-id="140:770">
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="140:771">
+          <div className="border-[0.5px] border-black border-solid col-1 h-[43px] ml-0 mt-0 overflow-clip relative row-1 w-[102px]" data-node-id="140:772">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-[15.5px] text-[12px] text-black top-[14.5px] tracking-[-0.6px] whitespace-nowrap" data-node-id="140:773">
+              VIEW MORE
+            </p>
+          </div>
+          <div className="col-1 h-[43px] ml-[102px] mt-0 relative row-1 w-[42px]" data-node-id="140:774">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame818} />
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[14px] items-center relative shrink-0 w-full" data-node-id="140:776">
+          <div className="content-stretch flex gap-[24px] items-center relative shrink-0" data-node-id="140:777">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative shrink-0 text-[14px] text-black tracking-[-0.7px] whitespace-nowrap" data-node-id="140:778">
+              05
+            </p>
+            <Progress className="bg-white border border-black border-solid h-[4px] relative rounded-[999px] shrink-0 w-[203px]" />
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative shrink-0 text-[14px] text-black tracking-[-0.7px] whitespace-nowrap" data-node-id="140:780">
+              06
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-between relative shrink-0 w-[35.314px]" data-node-id="140:781">
+            <div className="flex items-center justify-center relative shrink-0 size-[11.314px]" data-node-id="140:782">
+              <div className="flex-none rotate-45">
+                <div className="border-b-[0.5px] border-black border-l-[0.5px] border-solid relative size-[8px]" />
+              </div>
+            </div>
+            <div className="flex items-center justify-center relative shrink-0 size-[11.314px]" data-node-id="140:783">
+              <div className="-rotate-135 flex-none">
+                <div className="border-b-[0.5px] border-black border-l-[0.5px] border-solid relative size-[8px]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[658px] left-[729px] top-[236px] w-[1079px]" data-node-id="176:203" />
+    </div>
+  );
+}
+

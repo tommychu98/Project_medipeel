@@ -1,0 +1,143 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/da3e496b-8ed5-4676-83d8-45f0f48e4275";
+const imgFrame818 = `${assetPathPrefix}/facf9.svg`;
+const imgImage = `${assetPathPrefix}/3223b.svg`;
+const imgImage1 = `${assetPathPrefix}/dc06b.svg`;
+const imgImage2 = `${assetPathPrefix}/8f4e5.svg`;
+const imgImage3 = `${assetPathPrefix}/e16f2.svg`;
+const imgImage4 = `${assetPathPrefix}/1b0c5.svg`;
+const imgImage5 = `${assetPathPrefix}/6617e.svg`;
+const imgImage6 = `${assetPathPrefix}/780cb.svg`;
+
+export default function Frame811() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:1111">
+      <div className="absolute content-stretch flex flex-col gap-[50px] items-start left-[100px] top-[176px] w-[382px]" data-node-id="140:1114">
+        <div className="[word-break:break-word] content-stretch flex flex-col h-[152px] items-start relative shrink-0 text-black w-full" data-node-id="140:1115">
+          <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] mb-[-5px] relative shrink-0 text-[72px] tracking-[-2.304px] w-[777px]" data-node-id="140:1116">
+            CORE TECHNOLOGY
+          </p>
+          <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[15px] tracking-[-0.48px] w-[560px]" data-node-id="140:1117">
+            <p className="leading-[1.4] mb-0">타협 없는 성분 배합과 독보적인 전달 기술</p>
+            <p className="leading-[1.4]">눈에 보이는 확실한 피부 변화를 증명하는 메디필의 핵심 메커니즘입니다</p>
+          </div>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="140:1118">
+          <div className="border-[0.5px] border-black border-solid col-1 h-[43px] ml-0 mt-0 overflow-clip relative row-1 w-[102px]" data-node-id="140:1119">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-[15.5px] text-[12px] text-black top-[14.5px] tracking-[-0.6px] whitespace-nowrap" data-node-id="140:1120">
+              VIEW MORE
+            </p>
+          </div>
+          <div className="col-1 h-[43px] ml-[102px] mt-0 relative row-1 w-[42px]" data-node-id="140:1121">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame818} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[1383px] top-[434px]" data-node-id="140:1123">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[403px]" data-node-id="140:1124">
+          <div className="h-[514px] relative shrink-0 w-[403px]" data-node-id="140:1125" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1126">
+            세포보다 미세한 입자로 피부 속 깊이 전달하는 나노 리포좀 흡수 기술
+          </p>
+        </div>
+        <div className="flex h-[174px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1127">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">DELIVERY SYSTEM</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[672px] top-[679px]" data-node-id="140:1128">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[399px]" data-node-id="140:1129">
+          <div className="h-[400px] relative shrink-0 w-[399px]" data-node-id="140:1130" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage1} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1131">
+            피부 고민을 정밀 타겟팅하는 메디필 연구소의 독자 특허 배합 성분
+          </p>
+        </div>
+        <div className="flex h-[138px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1132">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">BIO-COMPLEX</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[1221px] top-[1283px]" data-node-id="140:1133">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[472px]" data-node-id="140:1134">
+          <div className="h-[342px] relative shrink-0 w-[472px]" data-node-id="140:1135" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage2} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1136">
+            엄격한 인체 적용 시험과 숫자로 증명된 확실한 피부 개선 효과
+          </p>
+        </div>
+        <div className="flex h-[143px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1137">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">CLINICAL DATA</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[576px] top-[1487px]" data-node-id="140:1138">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[404px]" data-node-id="140:1139">
+          <div className="h-[529px] relative shrink-0 w-full" data-node-id="140:1140" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage3} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-full" data-node-id="140:1141">
+            유효 성분의 유실 없이 피부에 신선하게 전하는 에스테틱 제형 과학
+          </p>
+        </div>
+        <div className="flex h-[155px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1142">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">FORMULA TECH</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[1383px] top-[1866px] w-[446px]" data-node-id="140:1143">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[403px]" data-node-id="140:1144">
+          <div className="h-[461px] relative shrink-0 w-[403px]" data-node-id="140:1145" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage4} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1146">
+            식물 엑소좀 성분으로 무너진 피부 장벽을 깨우는 자생 테크놀로지
+          </p>
+        </div>
+        <div className="flex h-[186px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1147">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">EXOSOME SCIENCE</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[1183px] top-[2694px]" data-node-id="140:1148">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[534px]" data-node-id="140:1149">
+          <div className="h-[348px] relative shrink-0 w-[534px]" data-node-id="140:1150" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage5} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1151">
+            유산균 발효물로 피부 생태계를 강화하는 마이크로바이옴 기술
+          </p>
+        </div>
+        <div className="flex h-[162px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1152">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">LACTO-BIO TECH</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[20px] items-start left-[641px] top-[2248px]" data-node-id="140:1153">
+        <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[404px]" data-node-id="140:1154">
+          <div className="h-[446px] relative shrink-0 w-[403px]" data-node-id="140:1155" data-name="Image">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage6} />
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Regular'] leading-[1.1] min-w-full not-italic relative shrink-0 text-[15px] text-black tracking-[-0.75px] w-[min-content]" data-node-id="140:1156">
+            달아오른 피부 열감을 즉각 배출해 모공을 조이는 급속 쿨링 기술
+          </p>
+        </div>
+        <div className="flex h-[188px] items-center justify-center relative shrink-0 w-[22px]" data-node-id="140:1157">
+          <div className="flex-none rotate-90">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative text-[20px] text-black tracking-[-1px] whitespace-nowrap">THERMO-CONTROL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

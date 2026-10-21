@@ -1,0 +1,11 @@
+import HeroSection from '../components/sections/HeroSection'
+import NewProductsSection from '../components/sections/NewProductsSection'
+import CareSection from '../components/sections/CareSection'
+import PersonalCurationSection from '../components/sections/PersonalCurationSection'
+import NaturalBeautySection from '../components/sections/NaturalBeautySection'
+import BrandFilmSection from '../components/sections/BrandFilmSection'
+import CoreTechnologySection from '../components/sections/CoreTechnologySection'
+import StatementMarquee from '../components/sections/StatementMarquee'
+import RealReviewSection from '../components/sections/RealReviewSection'
+import TalkSection from '../components/sections/TalkSection'
+export default function HomePage(){return <main id="main-content"><HeroSection/><NewProductsSection/><CareSection/><PersonalCurationSection/><NaturalBeautySection/><BrandFilmSection/><CoreTechnologySection/><StatementMarquee/><RealReviewSection/><TalkSection/></main>}

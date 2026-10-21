@@ -1,0 +1,64 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/a460591b-83bb-49b4-b76f-96f365aeae7b";
+const imgFrame871 = `${assetPathPrefix}/2719c.png`;
+const imgFrame872 = `${assetPathPrefix}/d2ff5.png`;
+
+export default function Frame875() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="194:504">
+      <div className="absolute left-[840px] size-[1080px] top-0" data-node-id="194:511">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgFrame871} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col h-[152px] items-start leading-[1.4] left-[198px] text-black top-[236px] w-[539px] whitespace-nowrap" data-node-id="194:512">
+        <p className="font-['Cormorant_Garamond:Light'] font-light mb-[-5px] relative shrink-0 text-[72px] tracking-[-2.304px]" data-node-id="194:513">
+          REAL REVIEW
+        </p>
+        <p className="font-['Pretendard:Regular'] not-italic relative shrink-0 text-[15px] tracking-[-0.48px]" data-node-id="194:514">
+          메디필 커뮤니티의 생생한 피부 변화를 만나보세요
+        </p>
+      </div>
+      <div className="absolute h-[378px] left-[198px] top-[448px] w-[261px]" data-node-id="194:515">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-full left-[-0.13%] max-w-none top-0 w-[100.27%]" src={imgFrame872} />
+        </div>
+      </div>
+      <div className="absolute bg-white h-[378px] left-[459px] overflow-clip top-[448px] w-[278px]" data-node-id="194:516">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[20px] items-start left-[calc(50%-0.5px)] top-[calc(50%+120px)] w-[235px]" data-node-id="194:517">
+          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="194:518">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-[171px]" data-node-id="194:519">
+              <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[1.1] relative shrink-0 text-[20px] text-black tracking-[-0.64px] whitespace-nowrap" data-node-id="194:520">
+                비타민 알엑스 바디 워시 500ml
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Pretendard:Light'] leading-[1.6] not-italic relative shrink-0 text-[12px] text-black tracking-[-0.384px] w-[235px]" data-node-id="194:521">
+              하루 종일 칙칙하고 건조한 날씨에 노출되거나 야외 활동을 조금만 해도 바디 피부가 쉽게 푸석해지고 생기를 잃어버려서...
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Pretendard:Light'] leading-[1.6] not-italic relative shrink-0 text-[12px] text-[color:var(--soft-slate-gray,#666)] tracking-[-0.384px] w-full" data-node-id="194:522">
+            2026. 07. 01
+          </p>
+        </div>
+      </div>
+      <div className="absolute border-[0.5px] border-[var(--soft-slate-gray,#666)] border-solid content-stretch flex h-[24px] items-center justify-between left-[707px] px-px py-[2px] top-[448px] w-[30px]" data-node-id="203:261">
+        <div className="flex items-center justify-center relative shrink-0 size-[19.799px]" data-node-id="203:262">
+          <div className="-rotate-135 flex-none">
+            <div className="border-b-[0.5px] border-black border-l-[0.5px] border-solid relative size-[14px]" />
+          </div>
+        </div>
+        <div className="absolute flex h-[24px] items-center justify-center left-[-30.5px] top-[-0.5px] w-[30px]" data-node-id="203:263">
+          <div className="flex-none rotate-180">
+            <div className="border-[var(--soft-slate-gray,#666)] border-b-[0.5px] border-r-[0.5px] border-solid border-t-[0.5px] h-[24px] relative w-[30px]">
+              <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%-3.85px)] size-[19.799px] top-[1.5px]" data-node-id="203:264">
+                <div className="-rotate-135 flex-none">
+                  <div className="border-[var(--deep-charcoal,black)] border-b-[0.5px] border-l-[0.5px] border-solid relative size-[14px]" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

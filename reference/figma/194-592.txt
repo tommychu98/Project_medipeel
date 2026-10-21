@@ -1,0 +1,128 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/fd4d255c-dc44-4a88-aa83-2729c269318a";
+const imgImage = `${assetPathPrefix}/91d73.svg`;
+const imgArrow11 = `${assetPathPrefix}/523d3.svg`;
+
+export default function Frame876() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="194:592">
+      <div className="absolute h-[970px] left-[55px] top-[65px] w-[908px]" data-node-id="194:597" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[52px] items-start left-[1183px] top-[301px] w-[564px]" data-node-id="194:633">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] h-[152px] items-start relative shrink-0 text-black w-full" data-node-id="194:598">
+          <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] relative shrink-0 text-[72px] tracking-[-2.304px] w-[607px]" data-node-id="194:599">
+            ELASTICITY CARE
+          </p>
+          <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[15px] tracking-[-0.48px] w-[560px]" data-node-id="194:600">
+            <p className="leading-[1.4] mb-0">무너진 피부 텐션을 끌어올려 탄탄한 윤곽을 완성합니다</p>
+            <p className="leading-[1.4]">당신의 피부 고민에 맞는 탄력 솔루션을 선택해 보세요</p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="194:601">
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="194:602">
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:603">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:604">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:605">
+                <p className="leading-[1.4] mb-0">Toner</p>
+                <p className="leading-[1.4]">Skin</p>
+              </div>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:606">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:607">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:608">
+                <p className="leading-[1.4] mb-0">Ampoule</p>
+                <p className="leading-[1.4]">Serum</p>
+              </div>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:609">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:610">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:611">
+                Lifting Pad
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="194:612">
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:613">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:614">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:615">
+                Lifting Cream
+              </p>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:616">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:617">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:618">
+                <p className="leading-[1.4] mb-0">{`Eye & Neck`}</p>
+                <p className="leading-[1.4]">Cream</p>
+              </div>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:619">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:620">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:621">
+                <p className="leading-[1.4] mb-0 whitespace-pre">{`Wrinkle `}</p>
+                <p className="leading-[1.4] whitespace-pre">Spot Care</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="194:622">
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:623">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:624">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:625">
+                Wrapping Pack
+              </p>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:626">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:627">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:628">
+                Lifting Mask
+              </p>
+            </div>
+            <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="194:629">
+              <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="194:630">
+                <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="194:631">
+                <p className="leading-[1.4] mb-0 whitespace-pre">{`Anti-aging `}</p>
+                <p className="leading-[1.4] whitespace-pre">Sun Care</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

@@ -1,0 +1,78 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/e180eb21-5426-476f-979b-b8cfe92cce6e";
+const imgFrame877 = `${assetPathPrefix}/a38c1.png`;
+const imgLine8 = `${assetPathPrefix}/59d0e.svg`;
+
+export default function Frame877() {
+  return (
+    <div className="relative size-full" data-node-id="194:639">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame877} />
+      <div className="absolute h-[500px] left-0 overflow-clip top-[377px] w-[1920px]" data-node-id="200:188">
+        <div className="absolute content-stretch flex flex-col gap-[30px] items-center left-[129px] top-[154px] w-[382px]" data-node-id="200:224">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] h-[119px] items-center relative shrink-0 text-[color:var(--dema-light-gray,#f7f8fa)] text-center w-full" data-node-id="200:225">
+            <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] relative shrink-0 text-[42px] tracking-[-1.344px] w-[97px]" data-node-id="200:226">{` Q&A`}</p>
+            <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[14px] tracking-[-0.448px] whitespace-nowrap" data-node-id="200:227">
+              <p className="leading-[1.4] mb-0">메디필의 스킨케어와 제품에 대해 가장 자주 묻는 질문들을 모았습니다</p>
+              <p className="leading-[1.4]">당신의 피부 고민을 해결할 실마리를 확인해 보세요</p>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="200:228">
+            <div className="border-[0.5px] border-[var(--dema-light-gray,#f7f8fa)] border-solid col-1 h-[43px] ml-0 mt-0 overflow-clip relative row-1 w-[102px]" data-node-id="200:229">
+              <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-[calc(50%-29px)] text-[12px] text-[color:var(--dema-light-gray,#f7f8fa)] top-[14.5px] tracking-[-0.6px] whitespace-nowrap" data-node-id="200:230">
+                VIEW FAQ
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[30px] items-center left-[769px] top-[154px] w-[382px]" data-node-id="200:234">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] h-[119px] items-center relative shrink-0 text-[color:var(--dema-light-gray,#f7f8fa)] text-center w-full" data-node-id="200:235">
+            <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] relative shrink-0 text-[42px] tracking-[-1.344px] w-[247px]" data-node-id="200:236">
+              CONTACT US
+            </p>
+            <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[14px] tracking-[-0.448px] whitespace-nowrap" data-node-id="200:237">
+              <p className="leading-[1.4] mb-0">피부 전문가 메디필에게 당신의 소중한 의견과 피부 고민을 들려주세요</p>
+              <p className="leading-[1.4]">더 정밀하고 확실한 솔루션으로 언제나 귀 기울이겠습니다</p>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="200:238">
+            <div className="border-[0.5px] border-[var(--dema-light-gray,#f7f8fa)] border-solid col-1 h-[43px] ml-0 mt-0 overflow-clip relative row-1 w-[102px]" data-node-id="200:239">
+              <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-[15.5px] text-[12px] text-[color:var(--dema-light-gray,#f7f8fa)] top-[14.5px] tracking-[-0.6px] whitespace-nowrap" data-node-id="200:240">
+                CONTACT US
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[30px] items-center left-[1409px] top-[154px] w-[382px]" data-node-id="200:241">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] h-[119px] items-center relative shrink-0 text-[color:var(--dema-light-gray,#f7f8fa)] text-center w-full" data-node-id="200:242">
+            <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] relative shrink-0 text-[42px] tracking-[-1.344px] w-[242px]" data-node-id="200:243">
+              MEMBERSHIP
+            </p>
+            <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[14px] tracking-[-0.448px] whitespace-nowrap" data-node-id="200:244">
+              <p className="leading-[1.4] mb-0">오직 메디필 회원님만을 위해 준비된 특별한 피부 변화의 여정</p>
+              <p className="leading-[1.4]">다양한 등급별 혜택과 맞춤형 스킨케어 리워드를 경험해 보세요</p>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="200:245">
+            <div className="border-[0.5px] border-[var(--dema-light-gray,#f7f8fa)] border-solid col-1 h-[43px] ml-0 mt-0 overflow-clip relative row-1 w-[102px]" data-node-id="200:246">
+              <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-[calc(50%-31px)] text-[12px] text-[color:var(--dema-light-gray,#f7f8fa)] top-[calc(50%-6.5px)] tracking-[-0.6px] whitespace-nowrap" data-node-id="200:247">
+                JOIN NOW
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex h-[300px] items-center justify-center left-[640px] top-[83px] w-0" data-node-id="200:218">
+          <div className="flex-none rotate-90">
+            <div className="h-0 relative w-[300px]">
+              <div className="absolute inset-[-0.5px_0_0_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine8} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Cormorant_Garamond:Regular'] font-normal leading-[1.1] left-[calc(50%-380px)] text-[90px] text-white top-[calc(50%-332px)] tracking-[-4.05px] whitespace-nowrap" data-node-id="200:220">
+        TALK TO MEDI-PEEL
+      </p>
+    </div>
+  );
+}
+

@@ -1,0 +1,44 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/a25c4437-71bf-4dd0-ab42-b426d5706d91";
+const imgFrame867 = `${assetPathPrefix}/fb7cb.png`;
+const imgHand1 = `${assetPathPrefix}/1b7d1.png`;
+const imgLine7 = `${assetPathPrefix}/9d05f.svg`;
+
+export default function Frame812() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="190:188">
+      <div className="absolute h-0 left-[972.5px] top-[560px] w-[956.5px]" data-node-id="190:870">
+        <div className="absolute inset-[-0.25px_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine7} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[1.1] left-[-83px] text-[#e3e3e3] text-[260px] top-[155px] whitespace-nowrap" data-node-id="190:326">
+        SKIN DERMA
+      </p>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[240px] items-start leading-[0] left-[calc(50%+416.5px)] not-italic text-black text-right top-[419px] w-[833px]" data-node-id="190:328">
+        <p className="font-['S-Core_Dream:3_Light'] h-[93px] relative shrink-0 text-[0px] tracking-[-1.984px] w-[570px]" data-node-id="190:329">
+          <span className="leading-[1.6] text-[80px]">자연</span>
+          <span className="leading-[1.6] text-[62px]">스러운 아름다움</span>
+        </p>
+        <div className="font-['Pretendard:Regular'] min-w-full relative shrink-0 text-[20px] tracking-[-0.64px] w-[min-content]" data-node-id="190:330">
+          <p className="leading-[1.4] mb-0">우리는 끊임없이 더나은 피부에 도전하고</p>
+          <p className="leading-[1.4] mb-0">아름다움에 대한 해답을 만들어갑니다</p>
+          <p className="leading-[1.4]">메디필과 함께 자연스러운 나 다움을 창조해 보세요</p>
+        </div>
+      </div>
+      <div className="absolute contents left-[385px] top-[175px]" data-node-id="194:194">
+        <div className="-translate-y-1/2 absolute h-[600px] left-[385px] top-[calc(50%+40px)] w-[368px]" data-node-id="190:324">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-[#666] inset-0" />
+            <div className="absolute inset-0 mix-blend-multiply opacity-60 overflow-hidden">
+              <img alt="" className="absolute h-[130.86%] left-0 max-w-none top-[-19.07%] w-[100.01%]" src={imgFrame867} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[831px] left-[385px] top-[175px] w-[609px]" data-node-id="194:188" data-name="hand 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHand1} />
+        </div>
+      </div>
+    </div>
+  );
+}
+

@@ -1,0 +1,100 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/7e58b99a-1404-42c0-8a2c-f985659122b0";
+const img51 = `${assetPathPrefix}/eadbe.png`;
+const imgImage = `${assetPathPrefix}/35957.svg`;
+const imgLogo = `${assetPathPrefix}/a10a2.svg`;
+const imgIcon = `${assetPathPrefix}/3c762.svg`;
+
+export default function P1() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:670" data-name="p1">
+      <div className="absolute h-[1080px] left-0 top-0 w-[1920px]" data-node-id="140:671" data-name="스크린샷(5) 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover opacity-60 pointer-events-none size-full" src={img51} />
+      </div>
+      <div className="absolute h-[1080px] left-0 top-0 w-[1920px]" data-node-id="140:672" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="absolute bg-[var(--dema-light-gray,#f7f8fa)] content-stretch flex gap-[233px] items-center left-0 overflow-clip px-[42px] top-0 w-[1920px]" data-node-id="140:673">
+        <div className="h-[100px] relative shrink-0 w-[232px]" data-node-id="140:674" data-name="Logo">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogo} />
+        </div>
+        <div className="content-stretch flex gap-[90px] items-center relative shrink-0" data-node-id="140:675">
+          <div className="bg-[rgba(63,63,63,0)] h-[22px] relative shrink-0 w-[113px]" data-node-id="140:676">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[20px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-1px] whitespace-nowrap" data-node-id="140:677">
+              SKIN CLINIC
+            </p>
+          </div>
+          <div className="bg-[rgba(63,63,63,0)] h-[22px] relative shrink-0 w-[88px]" data-node-id="140:678">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[20px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-1px] whitespace-nowrap" data-node-id="140:679">
+              ROUTINE
+            </p>
+          </div>
+          <div className="bg-[rgba(63,63,63,0)] h-[22px] relative shrink-0 w-[57px]" data-node-id="140:680">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[20px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-1px] whitespace-nowrap" data-node-id="140:681">
+              SHOP
+            </p>
+          </div>
+          <div className="bg-[rgba(63,63,63,0)] h-[22px] relative shrink-0 w-[123px]" data-node-id="140:682">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[20px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-1px] whitespace-nowrap" data-node-id="140:683">
+              COMMUNITY
+            </p>
+          </div>
+          <div className="bg-[rgba(63,63,63,0)] h-[22px] relative shrink-0 w-[64px]" data-node-id="140:684">
+            <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[20px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-1px] whitespace-nowrap" data-node-id="140:685">
+              EVENT
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[33px] items-center relative shrink-0" data-node-id="140:686">
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="140:687">
+            <div className="bg-[rgba(63,63,63,0)] h-[18px] relative shrink-0 w-[70px]" data-node-id="140:688">
+              <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[16px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-0.8px] whitespace-nowrap" data-node-id="140:689">
+                MY PAGE
+              </p>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0 size-[18px]" data-node-id="140:690" data-name="Icon">
+              <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I140:690;2381:14235" data-name="icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="140:691">
+            <div className="bg-[rgba(63,63,63,0)] h-[18px] relative shrink-0 w-[41px]" data-node-id="140:692">
+              <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[1.1] left-0 text-[16px] text-[color:var(--deep-charcoal,black)] top-0 tracking-[-0.8px] whitespace-nowrap" data-node-id="140:693">
+                CART
+              </p>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0 size-[18px]" data-node-id="140:694" data-name="Icon">
+              <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I140:694;2381:14235" data-name="icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="140:695">
+            <div className="content-stretch flex gap-[5px] items-center relative shrink-0" data-node-id="140:696">
+              <div className="bg-[rgba(63,63,63,0)] content-stretch flex items-center justify-center relative shrink-0" data-node-id="140:697">
+                <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative shrink-0 text-[16px] text-[color:var(--deep-charcoal,black)] tracking-[-0.8px] whitespace-nowrap" data-node-id="140:698">
+                  KOR
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center relative shrink-0 size-[18px]" data-node-id="140:699" data-name="Icon">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I140:699;2381:14235" data-name="icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0 size-[18px]" data-node-id="140:700" data-name="Icon">
+              <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I140:700;2381:14235" data-name="icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Cormorant_Garamond:Regular'] font-normal leading-[0] left-1/2 text-[120px] text-black text-center top-[calc(50%-132px)] tracking-[-5.4px] whitespace-nowrap" data-node-id="140:702">
+        <p className="leading-[1.1] mb-0">BOUNCE YOUR SKIN</p>
+        <p className="leading-[1.1]">POP YOUR DERMA</p>
+      </div>
+    </div>
+  );
+}
+

@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 818">
+<mask id="path-1-inside-1_0_23" fill="white">
+<path d="M0 0H42V43H0V0Z"/>
+</mask>
+<path d="M42 0H42.5V-0.5H42V0ZM42 43V43.5H42.5V43H42ZM0 0V0.5H42V0V-0.5H0V0ZM42 0H41.5V43H42H42.5V0H42ZM42 43V42.5H0V43V43.5H42V43Z" fill="black" mask="url(#path-1-inside-1_0_23)"/>
+<path id="Arrow 10" d="M14 22V22.5L29 22.5V22V21.5L14 21.5V22ZM29.3536 22.3536C29.5488 22.1583 29.5488 21.8417 29.3536 21.6464L26.1716 18.4645C25.9763 18.2692 25.6597 18.2692 25.4645 18.4645C25.2692 18.6597 25.2692 18.9763 25.4645 19.1716L28.2929 22L25.4645 24.8284C25.2692 25.0237 25.2692 25.3403 25.4645 25.5355C25.6597 25.7308 25.9763 25.7308 26.1716 25.5355L29.3536 22.3536Z" fill="black"/>
+</g>
+</svg>

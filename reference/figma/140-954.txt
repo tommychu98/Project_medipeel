@@ -1,0 +1,392 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/9d5518b4-7264-4b5c-936c-458f2936f4b0";
+const imgLinkedEllipse15 = `${assetPathPrefix}/6d087.svg`;
+
+export default function Frame808() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:954">
+      <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[173px] not-italic text-[15px] text-black top-[-646px] tracking-[-0.48px] w-[560px]" data-node-id="179:206">
+        <p className="leading-[1.4] mb-0">메마른 피부에 마르지 않는 수분감을 선사합니다</p>
+        <p className="leading-[1.4]">당신의 피부 갈증을 해소할 메디필의 수분 솔루션을 만나보세요</p>
+      </div>
+      <div className="absolute contents left-[-615px] top-[-349px]" data-node-id="179:3488" data-name="Linked Path Group">
+        <div className="absolute left-[-436.86px] size-[1425px] top-[-171.46px]" data-node-id="184:196">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 size-[1425px] top-1/2" data-node-id="179:793" data-name="[Linked] Ellipse 15">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLinkedEllipse15} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[50px] items-start left-[calc(50%+191.36px)] top-[calc(50%-0.54px)] w-[382px]" data-node-id="179:223">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[25px] items-start leading-[0] relative shrink-0 text-black w-full" data-node-id="179:207">
+              <div className="font-['Cormorant_Garamond:Light'] font-light relative shrink-0 text-[72px] tracking-[-2.304px] whitespace-nowrap" data-node-id="179:209">
+                <p className="leading-[1.2] mb-0">PERSONAL</p>
+                <p className="leading-[1.2]">CURATION</p>
+              </div>
+              <div className="font-['Pretendard:Regular'] min-w-full not-italic relative shrink-0 text-[20px] tracking-[-0.64px] w-[min-content]" data-node-id="179:210">
+                <p className="leading-[1.4] mb-0">당신의 피부 시간을 멈추는 큐레이션</p>
+                <p className="leading-[1.4]">지금 당신의 맞춤 더마 루틴을 발견해 보세요</p>
+              </div>
+            </div>
+            <div className="bg-white border-[0.5px] border-[var(--deep-charcoal,black)] border-solid content-stretch flex h-[68px] items-center justify-center p-[5px] relative shrink-0 w-[281px]" data-node-id="140:962" data-name="Button">
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="I140:962;2384:15757" data-name="OPTIONS">
+                <div className="content-stretch flex items-baseline px-[2px] relative shrink-0" data-node-id="I140:962;2384:15757;2383:15223" data-name="↳ ✏️ Text">
+                  <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[1.1] relative shrink-0 text-[20px] text-[color:var(--deep-charcoal,black)] tracking-[-1px] whitespace-nowrap" data-node-id="I140:962;2384:15757;2383:15223;2383:15114">
+                    THE ANSWER IS HERE
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[128.577px] items-center justify-center left-[981.64px] top-[604.48px] w-[184.022px]" data-node-id="179:5726">
+          <div className="flex-none rotate-[94.2deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">R</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[143.658px] items-center justify-center left-[958.45px] top-[719.82px] w-[195.26px]" data-node-id="179:5727">
+          <div className="flex-none rotate-[102.55deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[165.291px] items-center justify-center left-[920.98px] top-[828.97px] w-[203.579px]" data-node-id="179:5728">
+          <div className="flex-none rotate-[110.78deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">V</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[179.577px] items-center justify-center left-[871.58px] top-[931.29px] w-[206.273px]" data-node-id="179:5729">
+          <div className="flex-none rotate-[118.88deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[198.914px] items-center justify-center left-[805px] top-[1029.15px] w-[210.301px]" data-node-id="179:5730">
+          <div className="flex-none rotate-[127.29deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">R</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[193.946px] items-center justify-center left-[739.62px] top-[1112.32px] w-[193.546px]" data-node-id="179:5731">
+          <div className="flex-none rotate-[135.21deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">S</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[205.455px] items-center justify-center left-[659.53px] top-[1181.6px] w-[192.549px]" data-node-id="179:5732">
+          <div className="flex-none rotate-[142.71deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[170.405px] items-center justify-center left-[630.98px] top-[1223.26px] w-[127.292px]" data-node-id="179:5733">
+          <div className="flex-none rotate-[147.95deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[198.134px] items-center justify-center left-[557.26px] top-[1254.94px] w-[161.786px]" data-node-id="179:5734">
+          <div className="flex-none rotate-[152.6deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">T</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[209.13px] items-center justify-center left-[440.7px] top-[1299.82px] w-[181.292px]" data-node-id="179:5735">
+          <div className="flex-none rotate-[160.94deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">H</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[191.977px] items-center justify-center left-[341.25px] top-[1330.37px] w-[136.711px]" data-node-id="179:5736">
+          <div className="flex-none rotate-[170.08deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[178.659px] items-center justify-center left-[309.01px] top-[1339.3px] w-[54.109px]" data-node-id="179:5737">
+          <div className="flex-none rotate-[175.36deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[176.35px] items-center justify-center left-[222.5px] top-[1341.52px] w-[91.679px]" data-node-id="179:5738">
+          <div className="flex-none rotate-[-179.78deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">T</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[179.56px] items-center justify-center left-[167.79px] top-[1337.97px] w-[63.402px]" data-node-id="179:5739">
+          <div className="flex-none rotate-[-174.92deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[205.037px] items-center justify-center left-[3.12px] top-[1321.5px] w-[187.583px]" data-node-id="179:5740">
+          <div className="flex-none rotate-[-167.45deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">M</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[203.809px] items-center justify-center left-[-116.97px] top-[1279.6px] w-[166.674px]" data-node-id="179:5741">
+          <div className="flex-none rotate-[-157.72deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[174.322px] items-center justify-center left-[-159.83px] top-[1247.53px] w-[117.525px]" data-node-id="179:5742">
+          <div className="flex-none rotate-[-152.18deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[219.154px] items-center justify-center left-[-278.6px] top-[1202.66px] w-[206.943px]" data-node-id="179:5743">
+          <div className="flex-none rotate-[-146.06deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">H</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[165.116px] items-center justify-center left-[-322.71px] top-[1147.08px] w-[150.656px]" data-node-id="179:5744">
+          <div className="flex-none rotate-[-139.58deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[210.974px] items-center justify-center left-[-416.92px] top-[1086.41px] w-[213.111px]" data-node-id="179:5745">
+          <div className="flex-none rotate-[-133.33deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">G</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[206.674px] items-center justify-center left-[-502.77px] top-[981.01px] w-[219.114px]" data-node-id="179:5746">
+          <div className="flex-none rotate-[-123.73deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">H</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[133.237px] items-center justify-center left-[-535.02px] top-[894.74px] w-[184.705px]" data-node-id="179:5747">
+          <div className="flex-none rotate-[-116.55deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">-</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[156.876px] items-center justify-center left-[-574.86px] top-[820.63px] w-[200.385px]" data-node-id="179:5748">
+          <div className="flex-none rotate-[-110.78deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">F</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[161.1px] items-center justify-center left-[-607.28px] top-[705.61px] w-[198.729px]" data-node-id="179:5749">
+          <div className="flex-none rotate-[-102.11deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">U</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[138.351px] items-center justify-center left-[-615px] top-[571.49px] w-[181.401px]" data-node-id="179:5750">
+          <div className="flex-none rotate-[-92.43deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">N</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[133.172px] items-center justify-center left-[-612.77px] top-[440.94px] w-[188.214px]" data-node-id="179:5751">
+          <div className="flex-none rotate-[-83.15deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">C</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[132.195px] items-center justify-center left-[-594.99px] top-[336.2px] w-[193.186px]" data-node-id="179:5752">
+          <div className="flex-none rotate-[-75.49deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">T</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[103.973px] items-center justify-center left-[-568.86px] top-[270.29px] w-[181.93px]" data-node-id="179:5753">
+          <div className="flex-none rotate-[-70.51deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[198.708px] items-center justify-center left-[-550.81px] top-[186.16px] w-[217.464px]" data-node-id="179:5754">
+          <div className="flex-none rotate-[-63.87deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">O</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[209.706px] items-center justify-center left-[-478.13px] top-[65.59px] w-[219.396px]" data-node-id="179:5755">
+          <div className="flex-none rotate-[-53.76deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">N</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[204.672px] items-center justify-center left-[-385.68px] top-[-31.66px] w-[204.025px]" data-node-id="179:5756">
+          <div className="flex-none rotate-[-44.58deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">A</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[197.088px] items-center justify-center left-[-295.35px] top-[-99.31px] w-[181.106px]" data-node-id="179:5757">
+          <div className="flex-none rotate-[-37.08deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">L</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[170.185px] items-center justify-center left-[-212.36px] top-[-137.99px] w-[127.761px]" data-node-id="179:5758">
+          <div className="flex-none rotate-[-32.26deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[201.355px] items-center justify-center left-[-174.14px] top-[-171.17px] w-[168.001px]" data-node-id="179:5759">
+          <div className="flex-none rotate-[-27.4deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">S</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[203.618px] items-center justify-center left-[-71.69px] top-[-214.64px] w-[165.248px]" data-node-id="179:5760">
+          <div className="flex-none rotate-[-19.49deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">K</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[182.356px] items-center justify-center left-[44.42px] top-[-237.45px] w-[88.148px]" data-node-id="179:5761">
+          <div className="flex-none rotate-[-13.64deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[190.777px] items-center justify-center left-[102.61px] top-[-253.61px] w-[151.654px]" data-node-id="179:5762">
+          <div className="flex-none rotate-[-7.07deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">N</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[176.597px] items-center justify-center left-[243.91px] top-[-259.4px] w-[42.713px]" data-node-id="179:5763">
+          <div className="flex-none rotate-[-0.88deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[182.704px] items-center justify-center left-[282.28px] top-[-257.1px] w-[110.625px]" data-node-id="179:5764">
+          <div className="flex-none rotate-[4.2deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">S</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[195.791px] items-center justify-center left-[373.97px] top-[-240.91px] w-[147.412px]" data-node-id="179:5765">
+          <div className="flex-none rotate-[12.11deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">C</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[182.222px] items-center justify-center left-[476.19px] top-[-219.44px] w-[99.985px]" data-node-id="179:5766">
+          <div className="flex-none rotate-[17.98deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[204.502px] items-center justify-center left-[513.06px] top-[-191.99px] w-[169.363px]" data-node-id="179:5767">
+          <div className="flex-none rotate-[23.57deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[218.871px] items-center justify-center left-[607.94px] top-[-131.09px] w-[205.29px]" data-node-id="179:5768">
+          <div className="flex-none rotate-[32.68deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">N</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[206.597px] items-center justify-center left-[708.86px] top-[-55.39px] w-[201.42px]" data-node-id="179:5769">
+          <div className="flex-none rotate-[41.67deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">C</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[195.865px] items-center justify-center left-[789.46px] top-[29.73px] w-[204.244px]" data-node-id="179:5770">
+          <div className="flex-none rotate-50">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[133.241px] items-center justify-center left-[851.85px] top-[87.78px] w-[167.379px]" data-node-id="179:5771">
+          <div className="flex-none rotate-[55.22deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">{` `}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[217.147px] items-center justify-center left-[873.71px] top-[173.89px] w-[226.867px]" data-node-id="179:5772">
+          <div className="flex-none rotate-[62.39deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">M</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[156.548px] items-center justify-center left-[938.93px] top-[300.08px] w-[200.559px]" data-node-id="179:5773">
+          <div className="flex-none rotate-[72.24deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">E</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[157.836px] items-center justify-center left-[970.71px] top-[424.28px] w-[193.919px]" data-node-id="179:5774">
+          <div className="flex-none rotate-[81.39deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">D</p>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-y-1/2 absolute flex h-[54.083px] items-center justify-center left-[987px] top-[516.79px] w-[177.561px]" data-node-id="179:5775">
+          <div className="flex-none rotate-[88.01deg]">
+            <div className="[word-break:break-word] flex flex-col font-['Montserrat:Light'] font-light justify-center leading-[0] relative text-[160px] text-[rgba(0,0,0,0.4)] tracking-[-8px] whitespace-nowrap">
+              <p className="leading-[1.1]">I</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

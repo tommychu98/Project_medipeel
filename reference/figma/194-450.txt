@@ -1,0 +1,53 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/8e8a5247-9d2c-4f64-b529-7782cb8e2940";
+const imgImage = `${assetPathPrefix}/ef80e.svg`;
+const imgImage1 = `${assetPathPrefix}/1fa71.svg`;
+const imgImage2 = `${assetPathPrefix}/c48a1.svg`;
+
+export default function Frame873() {
+  return (
+    <div className="content-stretch flex items-center relative size-full" data-node-id="194:450">
+      <div className="bg-[var(--deep-charcoal,black)] h-[1080px] overflow-clip relative shrink-0 w-[1920px]" data-node-id="194:391">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[680px] left-1/2 top-1/2 w-[494px]" data-node-id="194:399" data-name="Image">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+        </div>
+      </div>
+      <div className="bg-[var(--deep-charcoal,black)] h-[1080px] overflow-clip relative shrink-0 w-[1920px]" data-node-id="140:1093">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[680px] left-1/2 top-1/2 w-[1530px]" data-node-id="140:1101" data-name="Image">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage1} />
+        </div>
+        <div className="-translate-x-1/2 absolute h-[132px] left-1/2 top-[135px] w-[1430px]" data-node-id="140:1102">
+          <p className="[word-break:break-word] absolute font-['Cormorant_Garamond:Regular'] font-normal leading-[1.1] left-[calc(50%-694px)] text-[120px] text-white top-[calc(50%-66px)] tracking-[-5.4px] whitespace-nowrap" data-node-id="140:1103">
+            REWIND YOUR BEST SCENE
+          </p>
+        </div>
+      </div>
+      <div className="bg-[var(--deep-charcoal,black)] h-[1080px] overflow-clip relative shrink-0 w-[1920px]" data-node-id="194:375">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[680px] left-1/2 top-1/2 w-[1920px]" data-node-id="194:383" data-name="Image">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage2} />
+        </div>
+        <div className="absolute h-[132px] left-[245px] top-[135px] w-[1430px]" data-node-id="194:384">
+          <p className="[word-break:break-word] absolute font-['Cormorant_Garamond:Regular'] font-normal leading-[1.1] left-[calc(50%-694px)] text-[120px] text-white top-[calc(50%-66px)] tracking-[-5.4px] whitespace-nowrap" data-node-id="194:385">
+            REWIND YOUR BEST SCENE
+          </p>
+        </div>
+        <div className="absolute h-[197px] left-[775px] top-[766px] w-[950px]" data-node-id="194:386">
+          <div className="[word-break:break-word] absolute font-['Cormorant_Garamond:Regular'] font-normal leading-[0] left-0 text-[0px] text-white top-0 tracking-[-5.4px] whitespace-nowrap" data-node-id="194:387">
+            <p className="leading-[1.1] mb-0 text-[120px] whitespace-pre">MEDI-PEEL DERMA</p>
+            <p className="leading-[1.1] mb-0 text-[20px] whitespace-pre">​</p>
+            <p className="leading-[1.1] mb-0 text-[20px] whitespace-pre">​</p>
+            <p className="font-['Montserrat:Regular'] leading-[1.4] mb-0 text-[20px] tracking-[-0.64px] whitespace-pre">수만 번의 연구와 임상으로 증명된 완벽한 미장센</p>
+            <p className="font-['Montserrat:Regular'] leading-[1.4] text-[20px] tracking-[-0.64px] whitespace-pre">메디필이 당신의 피부 서사를 가장 아름다운 씬(Scene)으로 되감습니다</p>
+          </div>
+        </div>
+        <div className="absolute bg-white left-[1800px] overflow-clip size-[62px] top-[931px]" data-node-id="194:388">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%+0.21px)] size-[42.426px] top-[calc(50%+12.21px)]" data-node-id="194:389">
+            <div className="flex-none rotate-45">
+              <div className="border-black border-l border-solid border-t relative size-[30px]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

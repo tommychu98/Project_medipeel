@@ -1,0 +1,125 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/7b5d8453-bfb7-4b70-a32e-46927bd3362e";
+const imgImage = `${assetPathPrefix}/97e27.svg`;
+const imgArrow11 = `${assetPathPrefix}/523d3.svg`;
+
+export default function Frame807() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="140:909">
+      <div className="absolute h-[970px] left-[957px] top-[65px] w-[908px]" data-node-id="140:919" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[10px] h-[152px] items-start left-[173px] text-black top-[301px] w-[382px]" data-node-id="140:920">
+        <p className="font-['Cormorant_Garamond:Light'] font-light leading-[1.4] relative shrink-0 text-[72px] tracking-[-2.304px] w-[607px]" data-node-id="140:921">
+          SOOTHING CARE
+        </p>
+        <div className="font-['Pretendard:Regular'] leading-[0] not-italic relative shrink-0 text-[15px] tracking-[-0.48px] w-[560px]" data-node-id="140:922">
+          <p className="leading-[1.4] mb-0">자극받고 예민해진 피부에 편안한 휴식을 선사합니다</p>
+          <p className="leading-[1.4]">내 피부에 순한 진정 솔루션을 찾아보세요</p>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[10px] items-start left-[175px] top-[505px] w-[389px]" data-node-id="140:923">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="140:924">
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:925">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:926">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:927">
+              <p className="leading-[1.4] mb-0 whitespace-pre">{`Soothing `}</p>
+              <p className="leading-[1.4] whitespace-pre">Skin</p>
+            </div>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:928">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:929">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:930">
+              <p className="leading-[1.4] mb-0">Ampoule</p>
+              <p className="leading-[1.4]">Serum</p>
+            </div>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:931">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:932">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:933">
+              Cooling Pad
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="140:934">
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:935">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:936">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:937">
+              Barrier Cream
+            </p>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:938">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:939">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:940">
+              <p className="leading-[1.4] mb-0">Trouble</p>
+              <p className="leading-[1.4]">Spot Care</p>
+            </div>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:941">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:942">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:943">
+              Mild Cleanser
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="140:944">
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:945">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:946">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:947">
+              Wash-off Pack
+            </p>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:948">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:949">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[0] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:950">
+              <p className="leading-[1.4] mb-0">Soothing</p>
+              <p className="leading-[1.4]">Mask Sheet</p>
+            </div>
+          </div>
+          <div className="border-[0.5px] border-black border-solid h-[84px] overflow-clip relative shrink-0 w-[123px]" data-node-id="140:951">
+            <div className="absolute h-0 left-[100.5px] top-[70.5px] w-[12px]" data-node-id="140:952">
+              <div className="absolute inset-[-3.68px_-4.17%_-3.68px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow11} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Pretendard:Regular'] leading-[1.4] left-[10.5px] not-italic text-[14px] text-black top-[11.5px] tracking-[-0.448px] whitespace-nowrap" data-node-id="140:953">
+              Mild Sun Care
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

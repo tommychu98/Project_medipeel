@@ -1,0 +1,44 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/cc0981db-db54-4d2a-a0f6-5a88c5139f07";
+const imgImage = `${assetPathPrefix}/aeb16.svg`;
+const imgLogo = `${assetPathPrefix}/cd75c.svg`;
+
+export default function Frame801() {
+  return (
+    <div className="bg-[var(--deep-charcoal,black)] relative size-full" data-node-id="140:1085">
+      <div className="absolute h-[100px] left-[180px] top-[38px] w-[232px]" data-node-id="140:1086" data-name="Image">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgImage} />
+      </div>
+      <div className="[word-break:break-word] absolute bg-[rgba(5,5,5,0.4)] content-stretch flex flex-col font-['Pretendard:Regular'] gap-[3px] items-start left-[191px] not-italic text-[15px] text-white top-[151px] tracking-[-0.48px] w-[976px]" data-node-id="140:1088">
+        <p className="leading-[1.6] relative shrink-0 w-full" data-node-id="140:1089">
+          주식회사 스킨이데아 (SKINIDEA CO. ,LTD)
+        </p>
+        <p className="leading-[1.6] relative shrink-0 w-full" data-node-id="140:1090">
+          서울 강남구 언주로 726 두산빌딩 2층(논현동)
+        </p>
+        <div className="leading-[0] relative shrink-0 w-full whitespace-pre-wrap" data-node-id="140:1091">
+          <p className="mb-0">
+            <span className="leading-[1.6]">{`대표전화 : `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[1.6] text-white underline" href="tel:1644-0465" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="tel:1644-0465" target="_blank">
+                1644-0465
+              </span>
+            </a>
+            <span className="leading-[1.6]">{`   I   Fax. 02-6491-5600   I   E-Mail : skinidea@medipe el.com   I   사업자등록번호 : 132-86-30770  `}</span>
+          </p>
+          <p>
+            <span className="leading-[1.6]">{`통신판매업 신고 : 제 2024-서울강남-05026호 `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[1.6] text-white underline" href="https://medipeel.co.kr/#none" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://medipeel.co.kr/#none" target="_blank">
+                [사업자정보확인]
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[100px] left-[180px] top-[51px] w-[232px]" data-node-id="184:199" data-name="Logo">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogo} />
+      </div>
+    </div>
+  );
+}
+
