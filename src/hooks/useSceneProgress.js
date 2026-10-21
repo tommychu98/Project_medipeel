@@ -5,16 +5,34 @@ export default function useSceneProgress() {
   const element=ref.current
   if(!element)return
   if(typeof IntersectionObserver==='undefined'){element.style.setProperty('--scene','1');return}
-  let raf=0,current=0,target=1,previous=0,locked=false,cooldown=0,touchY=0,previousY=window.scrollY
+  let raf=0,handoffFrame=0,returning=false,current=0,target=1,previous=0,locked=false,cooldown=0,touchY=0,previousY=window.scrollY
   const unlock=()=>{locked=false}
+  const returnToPrevious=()=>{
+   const section=element.previousElementSibling
+   if(!section){unlock();return}
+   returning=true
+   const from=window.scrollY
+   const translateY=new DOMMatrixReadOnly(getComputedStyle(section).transform).m42
+   const destination=Math.max(0,from+section.getBoundingClientRect().top-translateY)
+   const started=performance.now()
+   const move=now=>{
+    const progress=Math.min(1,(now-started)/950)
+    const eased=progress*progress*(3-2*progress)
+    window.scrollTo({top:from+(destination-from)*eased,behavior:'instant'})
+    if(progress<1)handoffFrame=requestAnimationFrame(move)
+    else{handoffFrame=0;returning=false;previousY=window.scrollY;cooldown=performance.now()+300;unlock()}
+   }
+   handoffFrame=requestAnimationFrame(move)
+  }
   const update=time=>{
    const delta=previous?Math.min(time-previous,50):0
    previous=time
    current=Math.max(0,Math.min(1,current+(target===1?1:-1)*delta/1600))
    element.style.setProperty('--scene',(current*current*(3-2*current)).toFixed(5))
    if(current!==target){raf=requestAnimationFrame(update);return}
-   raf=0;previous=0;unlock()
-   if(target===0){cooldown=performance.now()+1200;window.scrollTo({top:Math.max(0,window.scrollY+element.getBoundingClientRect().top-window.innerHeight),behavior:'smooth'})}
+   raf=0;previous=0
+   if(target===0)returnToPrevious()
+   else unlock()
   }
   const play=direction=>{
    target=direction
@@ -30,6 +48,7 @@ export default function useSceneProgress() {
    else if(upward&&current>0&&rect.top<=window.innerHeight*.25&&rect.bottom>=window.innerHeight*.75)play(0)
   }
   const input=(event,direction)=>{
+   if(returning){event.preventDefault();return}
    if(!locked&&Math.abs(element.getBoundingClientRect().top)>8)return
    if(direction<0&&current>0){event.preventDefault();play(0)}
    else if(locked){event.preventDefault();if(direction>0&&target===0)play(1)}
@@ -51,7 +70,7 @@ export default function useSceneProgress() {
   window.addEventListener('touchmove',touchMove,{passive:false})
   window.addEventListener('keydown',key)
   return ()=>{
-   observer.disconnect();cancelAnimationFrame(raf);unlock()
+   observer.disconnect();cancelAnimationFrame(raf);cancelAnimationFrame(handoffFrame);unlock()
    window.removeEventListener('scroll',request);window.removeEventListener('wheel',wheel)
    window.removeEventListener('touchstart',touchStart);window.removeEventListener('touchmove',touchMove);window.removeEventListener('keydown',key)
   }

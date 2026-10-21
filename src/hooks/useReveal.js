@@ -11,7 +11,7 @@ export default function useReveal() {
   const animations=element.getAnimations({subtree:true}).filter(animation=>Number.isFinite(animation.effect.getComputedTiming().endTime))
   if(!animations.includes(entrance))animations.push(entrance)
   const duration=Math.max(...animations.map(animation=>animation.effect.getComputedTiming().endTime))
-  let frame=0,time=0,target=0,previousTime=0,previousY=window.scrollY,direction=1
+  let frame=0,time=0,target=0,previousTime=0,previousY=window.scrollY,direction=1,visible=false,reentering=false
   const paint=()=>animations.forEach(animation=>{animation.pause();animation.currentTime=time})
   const update=now=>{
    const delta=previousTime?Math.min(50,now-previousTime):0
@@ -19,16 +19,22 @@ export default function useReveal() {
    time=Math.max(0,Math.min(duration,time+(target===duration?delta:-delta)))
    paint()
    if(time!==target)frame=requestAnimationFrame(update)
-   else{frame=0;previousTime=0}
+   else{frame=0;previousTime=0;reentering=false}
   }
   const request=()=>{
    const nextY=window.scrollY
    if(Math.abs(nextY-previousY)>1)direction=nextY>previousY?1:-1
    previousY=nextY
    const rect=element.getBoundingClientRect()
-   if(rect.bottom<=0){time=duration;target=duration;paint();return}
-   if(rect.top>=window.innerHeight){time=0;target=0;paint();return}
-   target=direction>0?duration:0
+   // Measure the layout position, excluding this entrance's own translation.
+   const translateY=new DOMMatrixReadOnly(getComputedStyle(element).transform).m42
+   const top=rect.top-translateY,bottom=rect.bottom-translateY
+   if(bottom<=2||top>=window.innerHeight-2){
+    cancelAnimationFrame(frame);frame=0;previousTime=0;visible=false;reentering=false
+    time=0;target=0;paint();return
+   }
+   if(!visible){visible=true;reentering=true;target=duration}
+   else if(!reentering)target=direction>0?duration:0
    if(!frame&&time!==target)frame=requestAnimationFrame(update)
   }
   paint()

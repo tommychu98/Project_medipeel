@@ -29,8 +29,8 @@ export default function BrandFilmSection(){
  return <section id="brand-film" ref={ref} className="brand-film" aria-labelledby="brand-title" data-node-id="194:450">
   <div className="brand-stage">
    <div className="brand-images" aria-hidden="true"><video ref={videoRef} className="brand-image brand-full" src="/videos/moss-gentle-loop.mp4" poster={assets['194:450/imgImage2']} autoPlay muted loop playsInline preload="auto"/></div>
-   <h2 id="brand-title">REWIND YOUR BEST SCENE</h2>
-   <div className="brand-description"><h3>MEDI-PEEL DERMA</h3><p>수만 번의 연구와 임상으로 증명된 완벽한 미장센<br/>메디필이 당신의 피부 서사를 가장 아름다운 씬(Scene)으로 되감습니다</p></div>
+   <h2 id="brand-title"><span>REWIND YOUR</span>{' '}<span>BEST SCENE</span></h2>
+   <div className="brand-description"><h3><span>MEDI-PEEL</span>{' '}<span>DERMA</span></h3><p>수만 번의 연구와 임상으로 증명된 완벽한 미장센<br/>메디필이 당신의 피부 서사를 가장 아름다운 씬(Scene)으로 되감습니다</p></div>
    <a className="back-top" href="#top" aria-label="맨 위로 이동"><span/></a>
   </div>
  </section>
